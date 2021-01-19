@@ -37,7 +37,6 @@ function* addHeroesFavorite({payload}: IAddHeroesToFavRequest) {
       text2: 'Tente novamente mais tarde!',
       position: 'bottom',
     });
-    console.log(err);
   }
 }
 

@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TextInput,
   TouchableOpacity,
+  Keyboard,
 } from 'react-native';
 import {useSelector} from 'react-redux';
 import Icon from 'react-native-vector-icons/Feather';
@@ -43,6 +44,7 @@ const Favorite: React.FC = () => {
     setFavHeroes(filteredHeroes);
 
     setTermoBusca('');
+    Keyboard.dismiss();
   }, [termoBusca, heroes]);
 
   const handleHeroeDetails = useCallback((item: HeroesResponse) => {

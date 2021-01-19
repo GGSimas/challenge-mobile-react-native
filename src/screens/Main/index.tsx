@@ -6,6 +6,7 @@ import {
   TextInput,
   TouchableOpacity,
   SafeAreaView,
+  Keyboard,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 import ListHeroes from '../../components/ListHeroes';
@@ -67,6 +68,7 @@ const Main: React.FC = () => {
         setResponse(resp.data.data.results);
       });
     setTermoBusca('');
+    Keyboard.dismiss();
   }, [termoBusca, loadHeroes]);
 
   const handleNewCallApi = useCallback(() => {
