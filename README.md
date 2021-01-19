@@ -1,6 +1,8 @@
 # challenge-mobile-react-native
 Aplicativo para o desafio da vaga para desenvolvedor Mobile, o aplicativo foi desenvolvido e testado no Android
 
+para executar o projeto entrar na pasta raiz e digitar o comando ```yarn``` para instalar todas as dependencias, executar um  ```yarn run android``` para executar o projeto.
+
 <h2>Tecnologias Utilizadas</h2>
 para o desenvolvimento deste aplicativo foram utilizadas as seguintes bibliotecas
 
