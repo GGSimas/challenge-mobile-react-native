@@ -34,7 +34,7 @@ Para buscar um heroi basta digitar o nome dele no input para trazer o herói des
 <h2> Favoritar um Herói </h2>
 
 Na tela Principal ao clicar na seta que aparece ao ao lado do herói irá aparecer uma modal com os detalhes do herói, uma descrição caso ele possua,
-o numero de hq, series, eventos e historias e ao final irá aparecer um botão onde é possivel favoritar esse herói
+o numero de hq, series, eventos e historias e ao final irá aparecer um botão onde é possivel favoritar esse herói.
 
 <p align="center">
 <img src="imagensApp/Screenshot_1611020590.png" width="250" />
